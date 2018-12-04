@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Conversor</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    
+    <body style="background-color:#1abc9c;">
+        <div>      
+            <center>
+                <h1>CONVERSOR</h1>
+            </center> 
+            
+            <br><br>
+            <h3>Esta aplicación realiza conversion de grados convierte de grados Celsius (centígrados) a grados Fahrenheit y vice versa.</h3>
+            
+            <center>
+                <br><br><br><br><br><br><br><br>
+                <h3>Para convertir de grados centígrados a Fahrenheit</h3>
+                <h4>Ingrese los grados Centigrados:</h4>
+                <input type="number" id="centigrados" name="centigrados">
+                <input type="button" value="Convertir" id="consultar" name="consultarF" onclick="document.getElementById('ocultoC').style.visibility='visible'">
+                <div id="ocultoC" style="visibility:hidden">
+                    Respuesta
+                </div> 
+                <br><br><br><br>
+                
+                <h3>Para convertir de grados Fahrenheit a centígrados</h3>
+                <h4>Ingrese los grados Fahrenheit:</h4>
+                <input type="number" id="fahrenheit" name="fahrenheit">
+                <input type="button" value="Convertir" id="consultarC" name="consultarC" onclick="document.getElementById('oculto').style.visibility='visible'">
+                <div id="oculto" style="visibility:hidden">
+                    Respuesta
+                </div>
+                <br><br><br><br>
+            </center>
+            
+            <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>By: Karen Mora <a></a>.</p>
+        </div>
+      </footer>
+        </div>
+    </body>
+</html>
